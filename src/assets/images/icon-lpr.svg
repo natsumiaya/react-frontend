@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="71" height="37" viewBox="0 0 71 37">
+    <defs>
+        <filter id="a" width="126.5%" height="178.7%" x="-16.3%" y="-39.3%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.478431373 0 0 0 0 0.298039216 0 0 0 0 0.643137255 0 0 0 0.3 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" filter="url(#a)" transform="translate(4 2)">
+        <rect width="60.32" height="27.04" x="1.04" y="1.04" fill="#1D0B46" stroke="#643B8E" stroke-width="2.08" opacity=".503" rx="5.2"/>
+        <circle cx="6.24" cy="7.28" r="2.08" fill="#B5ABC7"/>
+        <circle cx="6.24" cy="21.84" r="2.08" fill="#B5ABC7"/>
+        <circle cx="56.16" cy="7.28" r="2.08" fill="#B5ABC7"/>
+        <circle cx="56.16" cy="21.84" r="2.08" fill="#B5ABC7"/>
+        <text fill="#B5ABC7" font-family="Dosis-Medium, Dosis" font-size="14.4" font-weight="400" letter-spacing=".514">
+            <tspan x="12.284" y="20.6">AB 123</tspan>
+        </text>
+    </g>
+</svg>
