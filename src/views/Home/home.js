@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 
 import TotalSummary from './Component/TotalSummary';
 import InformationSummary from './Component/InformationSummary';
+import StyledGlobe from './styledglobe.js';
 
 class Home extends Component{
     constructor(){
@@ -77,10 +78,15 @@ class Home extends Component{
         return(
             <div className="landing-page">
                 <div className="globe-home">
+                    <StyledGlobe />
                     <TotalSummary className="detail-globe left-number" title="Face Recognition" data={this.state.total_values} data_title={this.state.data_title}/>
                     <TotalSummary className="detail-globe right-number" title="Traffic Surveilance" data={this.state.total_vehicles} data_title={this.state.data_title_vehicle}/>
                     <InformationSummary data={this.state.people_detail} title="Face Detection" className="detail-globe left-info" info_prefix="Height " img_src={['user-silhouette']} orientation="column"/>
                     <InformationSummary data={this.state.vehicles_detail} title="Traffic Surveilance" className="detail-globe right-info" info_prefix="" img_src={['bus', 'icon-lpr']} orientation="row"/>
+                    <div class="globe-title">
+                        <h1>Extending Vision Beyond Imagination</h1>
+                        <button className="rounded-white">Explore More</button>
+                    </div>
                 </div>
             </div>
         )

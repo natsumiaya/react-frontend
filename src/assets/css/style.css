@@ -12,8 +12,20 @@ body {
     font-family: 'Dosis', sans-serif;
 }
 
-h2, h4 {
+h1, h2, h4 {
     font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+.globe-info {
+    position: relative;
+}
+
+.globe-title h1 {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    font-size: 32px;
+    letter-spacing: 2.21px;
+    color: #ffffff;
 }
 
 p {
@@ -68,8 +80,15 @@ p {
     height: 100%;
 }
 .globe-home{
-    background: url('../images/globe.svg') center center no-repeat;
+    background: url('../images/n.svg') center center no-repeat;
     height: 100%;
+    position: relative;
+}
+
+.globe-title{
+    position: relative;
+    top: 80vh;
+    text-align: center;
 }
 
 .title-font {
@@ -79,25 +98,28 @@ p {
 }
 
 .left-number {
-    position: relative;
+    position: absolute;
     left: 15%;
+    top: 15%
 }
 
 .right-number {
-    position: relative;
-    left: 55%;    
+    position: absolute;
+    top: 15%;
+    right: 15%;    
 }
 
 .left-info {
-    top: 30%;
-    left: -15%;
-    position: relative;
+    position:absolute;
+    top: 45%;
+    left: 15%;
+    
 }
 
 .right-info {
-    position: relative;
-    top: 55%;
-    left: 23%;
+    position: absolute;
+    top: 45%;
+    right: 15%;
 }
 
 .detail-globe-container .row {
@@ -141,7 +163,7 @@ p {
 }
 
 
-p.detail-total {
+span.detail-total {
     font-size: 24px;
     letter-spacing: 0.5px;
     color: #fff;
@@ -168,4 +190,35 @@ p.info-date {
 .left-info > .row {
     display: inline;
     float: left;
+}
+
+.fadeOut{
+    opacity:0;
+    width:0;
+    height:0;
+    transition: width 0.5s 0.5s, height 0.5s 0.5s, opacity 0.5s 2s;
+
+}
+.fadeIn{
+    opacity:1;
+    width:100px;
+    height:100px;
+    transition: width 0.5s, height 0.5s, opacity 0.5s 0.5s 2s;
+
+}
+
+.rounded-white {
+    border: 1px solid #fff;
+    background: transparent;
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.rounded-white:hover {
+    background: #fff;
+    color: #1d0b47;
+    transition: 0.5s;
+    cursor: pointer;
 }

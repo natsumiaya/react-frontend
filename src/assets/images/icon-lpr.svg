@@ -16,7 +16,7 @@
         <circle cx="6.24" cy="21.84" r="2.08" fill="#B5ABC7"/>
         <circle cx="56.16" cy="7.28" r="2.08" fill="#B5ABC7"/>
         <circle cx="56.16" cy="21.84" r="2.08" fill="#B5ABC7"/>
-        <text fill="#B5ABC7" font-family="Dosis-Medium, Dosis" font-size="14.4" font-weight="400" letter-spacing=".514">
+        <text id="plat-number" fill="#B5ABC7" font-family="Dosis-Medium, Dosis" font-size="14.4" font-weight="400" letter-spacing=".514">
             <tspan x="12.284" y="20.6">AB 123</tspan>
         </text>
     </g>
