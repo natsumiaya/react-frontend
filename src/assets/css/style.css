@@ -17,6 +17,50 @@ h1, h2, h4 {
     text-align: center;
 }
 
+.loader-container {
+    background: #1d0b47;
+    width: 200%;
+    height: 200%;
+    border-radius: 100%;
+    z-index: 90;
+    position: fixed;
+    top: -50%;
+    left: -50%;
+}
+
+.loader {
+    position: absolute;
+    top: calc(50% - 4em);
+    left: calc(50% - 4em);
+    width: 6em;
+    height: 6em;
+    background: url('../images/n.svg') 50% 50% no-repeat;
+    box-shadow: 0 0 6px #fff;
+    border-radius: 50%;
+    animation: pulse 1.5s infinite;
+    transition: opacity 0.3s;
+  }
+
+  @keyframes pulse {
+	0% {
+		transform: scale(0.9);
+		opacity: 0.7;		
+	}
+	50% {
+		transform: scale(1);
+		opacity: 1;	
+	}	
+	100% {
+		transform: scale(0.9);
+		opacity: 0.7;	
+	}			
+}
+  
+  .loader--hide {
+    display: none;
+    transition: ease-out 2s;
+  }
+
 .globe-info {
     position: relative;
 }
@@ -78,9 +122,10 @@ p {
     background-image: url('../images/pattern-wave-pattern-wave-copy-mask.svg');
     background-size: contain;
     height: 100%;
+    transition: all 5s linear;
 }
 .globe-home{
-    background: url('../images/n.svg') center center no-repeat;
+    background: url('../images/n.svg') center 45% no-repeat;
     height: 100%;
     position: relative;
 }
