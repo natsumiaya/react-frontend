@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-frontend/static/css/main.aae5a20b.chunk.css",
+    "main.js": "/react-frontend/static/js/main.c52f2706.chunk.js",
+    "main.js.map": "/react-frontend/static/js/main.c52f2706.chunk.js.map",
+    "runtime~main.js": "/react-frontend/static/js/runtime~main.57f9b9d2.js",
+    "runtime~main.js.map": "/react-frontend/static/js/runtime~main.57f9b9d2.js.map",
+    "static/js/2.9a80981e.chunk.js": "/react-frontend/static/js/2.9a80981e.chunk.js",
+    "static/js/2.9a80981e.chunk.js.map": "/react-frontend/static/js/2.9a80981e.chunk.js.map",
+    "index.html": "/react-frontend/index.html",
+    "precache-manifest.ec39c86c0ff9ec9b9abc09150aa6aad8.js": "/react-frontend/precache-manifest.ec39c86c0ff9ec9b9abc09150aa6aad8.js",
+    "service-worker.js": "/react-frontend/service-worker.js",
+    "static/css/main.aae5a20b.chunk.css.map": "/react-frontend/static/css/main.aae5a20b.chunk.css.map",
+    "static/media/bus.svg": "/react-frontend/static/media/bus.30cb1205.svg",
+    "static/media/globe.svg": "/react-frontend/static/media/globe.c168609e.svg",
+    "static/media/icon-lpr.svg": "/react-frontend/static/media/icon-lpr.95ac0811.svg",
+    "static/media/n.svg": "/react-frontend/static/media/n.c2a30a4d.svg",
+    "static/media/path-2.svg": "/react-frontend/static/media/path-2.17694fcd.svg",
+    "static/media/pattern-wave-pattern-wave-copy-mask.svg": "/react-frontend/static/media/pattern-wave-pattern-wave-copy-mask.d0cab2dc.svg",
+    "static/media/user-silhouette.svg": "/react-frontend/static/media/user-silhouette.fe5e7a51.svg"
+  }
+}
